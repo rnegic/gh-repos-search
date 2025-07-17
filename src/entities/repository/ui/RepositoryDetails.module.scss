@@ -1,0 +1,71 @@
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 300px;
+  padding: 24px;
+}
+
+.emptyText {
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 16px !important;
+  text-align: center;
+}
+
+.content {
+  padding: 24px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.title {
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  line-height: 1.2 !important;
+  flex: 1;
+  margin: 0 !important;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #1976d2 !important;
+  text-decoration: none !important;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(25, 118, 210, 0.1);
+  }
+}
+
+.statsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #666;
+}
+
+.license {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  margin: 0 !important;
+}

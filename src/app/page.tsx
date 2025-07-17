@@ -1,9 +1,5 @@
-import styles from "./page.module.css";
+import { RepositoryList } from '@/widgets/repository-list';
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-
-    </div>
-  );
+  return <RepositoryList />;
 }

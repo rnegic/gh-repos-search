@@ -1,0 +1,70 @@
+.tableContainer {
+  width: 100%;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.table {
+  min-width: 650px;
+}
+
+.headerRow {
+  background-color: #f8f9fa;
+}
+
+.headerCell {
+  font-weight: 600 !important;
+  color: #333 !important;
+  border-bottom: 2px solid #e0e0e0 !important;
+  padding: 16px !important;
+}
+
+.sortLabel {
+  font-weight: 600 !important;
+  color: #333 !important;
+  
+  &.Mui-active {
+    color: #1976d2 !important;
+  }
+  
+  &:hover {
+    color: #1976d2 !important;
+  }
+}
+
+.tableRow {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  
+  &:hover {
+    background-color: #e3f2fd !important;
+  }
+  
+  &.Mui-selected {
+    background-color: #bbdefb !important;
+    
+    &:hover {
+      background-color: #90caf9 !important;
+    }
+  }
+}
+
+.nameCell {
+  max-width: 300px;
+}
+
+.repositoryName {
+  font-weight: 500 !important;
+  color: #1976d2 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.statCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #666;
+}

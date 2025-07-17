@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GitHub Repository Search",
+  title: "GH Repository Search",
   description: "Поиск репозиториев GitHub с помощью GraphQL API",
 };
 

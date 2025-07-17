@@ -1,0 +1,72 @@
+
+.paper {
+  padding: 24px;
+  margin: 0;
+  background: #00838F !important;
+  border-radius: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.form {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.inputWrapper {
+  flex: 1;
+}
+
+.input {
+  background: #F2F2F2 !important;
+  border-radius: 8px !important;
+  
+  &.MuiOutlinedInput-root {
+    background: #F2F2F2 !important;
+    border-radius: 8px !important;
+    
+    & .MuiOutlinedInput-notchedOutline {
+      border: none !important;
+    }
+    
+    &:hover .MuiOutlinedInput-notchedOutline {
+      border: none !important;
+    }
+    
+    &.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border: 2px solid #fff !important;
+    }
+  }
+}
+
+.button {
+  height: 56px !important;
+  padding: 0 32px !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  min-width: 120px !important;
+  background: #2196F3 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3) !important;
+  
+  &:hover {
+    background: #1976D2 !important;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.4) !important;
+  }
+  
+  @media (max-width: 768px) {
+    width: 100% !important;
+  }
+}
