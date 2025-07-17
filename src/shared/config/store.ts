@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { githubApi } from './github-api';
+import { githubApi } from '../api/github-api';
 
 /**
  * Конфигурация Redux store с поддержкой RTK Query
