@@ -117,7 +117,7 @@ export function RepositoryDetails({ repository }: RepositoryDetailsProps) {
           {repository.license && (
             <Box className={styles.detailRow}>
               <Box className={styles.detailItem}>
-                <License className={styles.icon} />
+                <Gavel className={styles.icon} />
                 <Typography variant="body2" className={styles.label}>
                   Лицензия:
                 </Typography>
